@@ -175,13 +175,18 @@ html, body {
 }
 
 .hamburger {
-    display: flex; /* Show hamburger menu only on mobile */
+    display: flex;
     flex-direction: column;
     gap: 5px;
     background: none;
     border: none;
     cursor: pointer;
+    position: fixed; 
+    top: 30px; 
+    right: 70px;
+    z-index: 1001; 
 }
+
 /* Contact Section */
 #contact {
     background: url(./image/p.jpg);
